@@ -19,6 +19,8 @@ const btnAdd = document.getElementById("btnAdd");
 const btnSave = document.getElementById("btnSave");
 const inpTitle = document.getElementById("inpTitle");
 
+// document.documentElement.webkitRequestFullscreen()
+
 const bg = localStorage.getItem("bg");
 const guardarColor = ({ target }) => {
   const bgs = window.getComputedStyle(target).backgroundColor;
