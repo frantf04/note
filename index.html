@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOTAS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/84e2c363c5.js"
+      crossorigin="anonymous"></script>
+    <script defer src="./index.js" ></script>
+  </head>
+  <body>
+    <header class="header">
+      <span class="add-note">
+        <i class="fas fa-plus"></i>
+      </span>
+      <nav class="nav">
+        <div class="colores">
+          <span class="c-yellow"></span>
+          <span class="c-green"></span>
+          <span class="c-pink"></span>
+          <span class="c-purple"></span>
+          <span class="c-blue"></span>
+          <span class="c-gray"></span>
+          <span class="c-dark"></span>
+        </div>
+      </nav>
+      <div class="bar">
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+    <div class="container">
+      <div class="cards-container">
+        <!-- Tus notas apareceran aquí -->
+      </div>
+      <div class="modal-container">
+        <div class="modal-new__note">
+          <div class="controls">
+            <input type="text" name id="inpTitle" placeholder="Agrega un titulo">
+            <span>
+              <button id="btnAdd">Añadir</button>
+              <button id="btnSave">Guardar</button>
+              <span class="modal-maximize"><i class="far fa-square"></i></span>
+              <span class="modal-close"><i class="fas fa-times"></i></span>
+            </span>
+          </div>
+          <textarea class="text" placeholder="Toma una nota..." cols="30" rows="10"></textarea>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
